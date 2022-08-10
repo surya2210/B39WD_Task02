@@ -1,0 +1,21 @@
+Difference Between Window Object and Document Object?
+
+Window Object
+.IS Supported By All Browser and it is representation of Browser Window.
+.It is the very first object that is loaded in the browser.
+.It is the object of the browser.
+.Whenever a window appears on the screen to display the contents of the document, the window object is created. 
+.We can access the window from the window only. i.e. window.window
+.The window is part of BOM, not DOM.
+.syntax:window.propertyname;
+.example:window.innerHeight : will return the height of the content area of the browser
+
+
+Document Object
+.Is Representation of HTML Elements in Document That is displayed in the window.
+.It is loaded inside the window.
+.It is the very first object that is loaded in the browser.
+.The document object can be accessed with a window.document or just document.
+.The document is part of BOM (browser object model) and dom (Document object model)
+.syntax:document.propertyname;
+example:document.title :  will return the title of the document
